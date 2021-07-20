@@ -8,7 +8,7 @@ WhatsAsena - Yusuf Usta
 
 const {MessageType, Presence, MessageOptions} = require('@adiwajshing/baileys');
 const Base = require('./Base');
-const Image = require('./Imag');
+const Image = require('./Image');
 
 class ReplyMessage extends Base {
     constructor(client, data) {
